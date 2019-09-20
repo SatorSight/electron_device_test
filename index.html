@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Device ID checker</title>
+</head>
+<body>
+<script>
+    var remote = require('electron').remote;
+</script>
+<style>
+    h1 {
+        font-size: 1rem;
+    }
+</style>
+<h1>
+    Your machine ID:
+    <script> document.write(remote.getGlobal('machineID')) </script>
+    <br>
+    <span>OS: </span>
+    <script> document.write(remote.getGlobal('os')) </script>
+    <br>
+    <script> document.write(remote.getGlobal('lol')) </script>
+</h1>
+</body>
+</html>

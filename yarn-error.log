@@ -1,0 +1,32 @@
+Arguments: 
+  /usr/bin/node /usr/local/bin/yarn init
+
+PATH: 
+  /home/eugene/WebstormProjects/true_device/node_modules/.bin:/home/eugene/.cargo/bin:/home/eugene/bin:/home/eugene/.cargo/bin:/home/eugene/bin:/home/eugene/.cargo/bin:/home/eugene/.rvm/gems/ruby-2.5.3/bin:/home/eugene/.rvm/gems/ruby-2.5.3@global/bin:/home/eugene/.rvm/rubies/ruby-2.5.3/bin:/home/eugene/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/eugene/.rvm/bin:/home/eugene/RubyMine-2018.3.2/bin/:/home/eugene/.config/composer/vendor/bin/:/home/eugene/.rvm/bin:/home/eugene/.rvm/bin:/home/eugene/RubyMine-2018.3.2/bin/:/home/eugene/.config/composer/vendor/bin/:/home/eugene/.rvm/bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  8.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/eugene/WebstormProjects/true_device/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:315:13
+      at <anonymous>
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

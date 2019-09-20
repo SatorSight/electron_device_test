@@ -1,0 +1,23 @@
+{
+  "name": "true_device",
+  "version": "0.1.0",
+  "main": "main.js",
+  "license": "MIT",
+  "dependencies": {
+    "node-machine-id": "^1.1.12"
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "dist_mac": "electron-builder --mac tar.gz",
+    "dist_win": "electron-builder --win"
+  },
+  "build": {
+    "appId": "com.tl-device.app"
+  },
+  "devDependencies": {
+    "electron": "^6.0.10",
+    "electron-builder": "^21.2.0"
+  }
+}
