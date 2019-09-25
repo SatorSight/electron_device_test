@@ -1,20 +1,29 @@
 {
-  "name": "true_device",
+  "name": "truedevice",
   "version": "0.1.0",
   "main": "main.js",
   "license": "MIT",
   "dependencies": {
-    "node-machine-id": "^1.1.12"
+    "node-machine-id": "^1.1.12",
+    "path": "^0.12.7",
+    "uri": "^0.1.0",
+    "url": "^0.11.0"
   },
   "scripts": {
     "start": "electron .",
     "pack": "electron-builder --dir",
     "dist": "electron-builder",
     "dist_mac": "electron-builder --mac tar.gz",
-    "dist_win": "electron-builder --win"
+    "dist_win": "electron-builder --win --ia32"
   },
   "build": {
-    "appId": "com.tl-device.app"
+    "appId": "com.tl-device.app",
+    "protocols": {
+      "name": "trustme",
+      "schemes": [
+        "trustme"
+      ]
+    }
   },
   "devDependencies": {
     "electron": "^6.0.10",
